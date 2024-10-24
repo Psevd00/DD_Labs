@@ -46,6 +46,80 @@ a {
         text-decoration: underline;
     }
 
+.block {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; 
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px; 
+}
+
+.fixed-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.position-container {
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    margin: 20px auto;
+}
+
+.square {
+    position: absolute; 
+}
+
+.square-1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.7); 
+    top: 0; 
+    left: 0; 
+}
+
+.square-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 0, 0.7);
+    top: 125px; 
+    left: 125px; 
+}
+
+.square-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.7);
+    top: 250px; 
+    left: 250px; 
+}
+
+
 .profile-image {
     max-width: 100%;
     height: auto; 
