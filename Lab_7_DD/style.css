@@ -1,0 +1,47 @@
+body {
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: -15px;
+    z-index: 100;
+    height: calc(100vh - 56px);
+    padding: 48px 0 0;
+}
+
+.carousel-item active {
+    bottom: 400px;
+    height: 1200px;
+}
+
+.carousel-item {
+    bottom: 400px;
+    height: 1200px;
+}
+
+.actor-photo {
+    width: 100%; /* Фотография занимает 100% ширины родительского элемента */
+    max-width: 300px; /* Максимальная ширина фотографии */
+}
+
+.info-column {
+    width: 50%; /* Занимает 50% ширины на больших экранах */
+}
+
+.additional-info {
+    width: 50%; /* Занимает 50% ширины на больших экранах */
+}
+
+@media (max-width: 768px) {
+    .info-column, .additional-info {
+        width: 100%; /* На маленьких экранах занимают 100% */
+    }
+
+    .actor-photo {
+        display: block; /* Показываем фотографию на маленьких экранах */
+        margin: 0 auto; /* Центрируем фотографию */
+    }
+}
