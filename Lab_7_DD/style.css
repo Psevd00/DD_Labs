@@ -23,25 +23,25 @@ body {
 }
 
 .actor-photo {
-    width: 100%; /* Фотография занимает 100% ширины родительского элемента */
-    max-width: 300px; /* Максимальная ширина фотографии */
+    width: 100%; 
+    max-width: 300px;
 }
 
 .info-column {
-    width: 50%; /* Занимает 50% ширины на больших экранах */
+    width: 50%; 
 }
 
 .additional-info {
-    width: 50%; /* Занимает 50% ширины на больших экранах */
+    width: 50%; 
 }
 
 @media (max-width: 768px) {
     .info-column, .additional-info {
-        width: 100%; /* На маленьких экранах занимают 100% */
+        width: 100%; 
     }
 
     .actor-photo {
-        display: block; /* Показываем фотографию на маленьких экранах */
-        margin: 0 auto; /* Центрируем фотографию */
+        display: block;
+        margin: 0 auto;
     }
 }
